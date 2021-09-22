@@ -1,21 +1,21 @@
 # re:bass
 *If Git was music, what would it sound like?*
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/S9Do2p4PwtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://user-images.githubusercontent.com/106178/134353306-702fb9cb-c33c-4907-a29c-294879313283.mp4
 
 **re:bass** is an original musical composition inspired by Git. Rhythms and melodies diverge, conflict, merge and resolve like branches in a codebase. Drums, guitars, synthesizers and vocals build up in layers, creating parallel arrangements based around a common chord structure until finally the branches combine into a musical crescendo.
 
 ### Making re:bass
 
-This project goes back to 2016, when Axosoft held a [songwriting competition](https://dylanbeattie.net/2016/04/15/the-axosoft-gitkraken-songwriting-battle.html) to celebrate the [launch of GitKraken 1.0](https://www.gitkraken.com/blog/gitkraken-version-1-launch-contest); that first gave me the idea of trying to interpret concepts like branches, merges and rebases as elements in a musical composition. The idea floated around for a while, and when I was invited to present something at [GitKon 2021](https://gitkon.com/) I took the opportunity to revisit the idea and see if I could do something with it.
+This project dates way back to 2016, when Axosoft held a [songwriting competition](https://dylanbeattie.net/2016/04/15/the-axosoft-gitkraken-songwriting-battle.html) to celebrate the [launch of GitKraken 1.0](https://www.gitkraken.com/blog/gitkraken-version-1-launch-contest). That's what originally gave me the idea of trying to interpret concepts like branches, merges and rebases as elements in a musical composition. The idea floated around for a while, and when I was invited to present something at [GitKon 2021](https://gitkon.com/) I took the opportunity to revisit the idea and see if I could do something with it.
 
 ### The music
 
-The music required around ten distinct instruments and patterns, each of which had to work as an isolated instrument or as part of the full arrangement which ends the piece, so I started with the final section and worked backwards, removing elements from the full mix until just the 4/4 kickdrum pattern was left. That gave me the structure of the final song; each instrument was then recorded individually. The drums and synthesizers are all built-in instruments in Logic Pro X; the bass is a Peavey Millennium 5-string and a Fender Strat running straight into Logic. The vocoder effect is [iZOTOPE VocalSynth 2](https://www.izotope.com/en/products/vocalsynth.html).
+The music required around ten distinct instruments and patterns, each of which had to work as an isolated instrument, in various combinations, and as part of the full arrangement which ends the piece. I actually started with the final section and worked backwards, removing elements from the full mix until just the 4/4 kickdrum pattern was left. That gave me the structure of the final song; each instrument was then recorded individually. The drums and synthesizers are all built-in instruments in Logic Pro X; the bass is a Peavey Millennium 5-string, the guitar is a Fender Strat running straight into Logic. The vocoder effect is [iZOTOPE VocalSynth 2](https://www.izotope.com/en/products/vocalsynth.html).
 
 ### The video
 
-The video was created by hand in Adobe After Effects. The visualization graph, commit messages, animations and visual effects were all drawn and animated by hand directly in After Effects; there are a *lot* of complicated mask keyframes and nested compositions going on. The viz graph is inspired by the visualisations seen in [GitKraken](https://www.gitkraken.com/), although for artistic reasons mine starts at the top and time flows downwards.
+The video was created in Adobe After Effects. The visualization graph, commit messages, animations and visual effects were all drawn and animated by hand directly in After Effects; there are a *lot* of complicated mask keyframes and nested compositions going on. The viz graph is inspired by the visualisations seen in [GitKraken](https://www.gitkraken.com/), although for artistic reasons mine starts at the top and time flows downwards.
 
 ### The console transcript
 
