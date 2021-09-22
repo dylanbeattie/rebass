@@ -1,0 +1,237 @@
+20-52 $ git init -b main . 
+----
+70 Initialized empty Git repository in /home/dylan/songs/rebass/.git/
+----
+80-91 $ git add kickdrum
+----
+140-185 $ git commit -m "4/4 LinnDrum kick pattern #doof" 
+----
+185 [main (root-commit) edd5150] 4/4 LinnDrum kick pattern #doof
+ 1 file changed, 1 insertion(+)
+ create mode 100644 kickdrum
+----
+190-225 $ git checkout -b cymbals 
+----
+225 Switched to a new branch 'cymbals'
+----
+232-279 $ git add cymbals
+----
+322-360 $ git commit -m "Pi-hat and crash cymbal loop" 
+----
+360 [cymbals a90125a] Pi-hat and crash cymbal loop
+ 2 files changed, 2 insertions(+)
+ create mode 100644 cymbals
+ create mode 100644 kickdrum
+----
+371-414 $ git commit --amend -m "Hi-hat and crash cymbal loop"
+----
+422 [cymbals acdcb1b] Hi-hat and crash cymbal loop
+ Date: Fri Feb 14 01:55:54 1986 +0100
+ 2 files changed, 2 insertions(+)
+ create mode 100644 cymbals
+ create mode 100644 kickdrum
+----
+428-440 $ git checkout -b drums 
+----
+444 Switched to a new branch 'drums'
+----
+450-470 $ git add snare
+----
+480-570 $ git commit -m "Electro snare with NAND gate reverb" 
+----
+580 [drums cda2112] Electro snare with NAND gate reverb
+ 1 file changed, 1 insertion(+)
+ create mode 100644 snare
+----
+631-650 $ git checkout main 
+----
+660-696 $ git checkout -b bass 
+----
+696 Switched to a new branch 'bass'
+----
+711-743 $ git add bass
+----
+992-1070 $ git commit -m "Import legacy code bass" 
+----
+1070 [bass 8675309] Import legacy code bass
+ 1 file changed, 1 insertion(+)
+ create mode 100644 bass
+----
+1092-1124 $ git checkout main 
+----
+1126-1142 $ git checkout -b echo-guitar 
+----
+1146 Switched to a new branch 'echo-guitar'
+----
+1148-1161 $ git add echo-guitar
+----
+1222-1308 $ git commit -m "echo echo guitar > echo-guitar" 
+----
+1321 [echo-guitar be81580] echo echo guitar > echo-guitar
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 echo-guitar
+----
+1492-1530 $ git checkout main 
+----
+1532-1548 $ git checkout -b guitar2 
+----
+1548 Switched to a new branch 'guitar2'
+----
+1550-1579 $ git add guitar2 
+----
+1815-1910 $ git commit -m "Kernel panic! at the disco"
+----
+1922 [guitar2 b07800f] Kernel panic! at the disco
+ 1 file changed, 1 insertion(+)
+ create mode 100644 guitar2
+----
+1962-1996 $ git checkout bass 
+----
+2009-2032 $ git checkout -b all-the-guitars 
+----
+2036 Switched to a new branch 'all-the-guitars'
+----
+2042-2070 $ git merge echo-guitar 
+----
+2074 Auto-merging song
+CONFLICT (content): Merge conflict in song
+Automatic merge failed; fix conflicts and then commit the result.
+----
+2230-2360 $ git commit -m "Resolved merge conflict" 
+----
+2369 [all-the-guitars a581977] Resolved merge conflict
+----
+2508-2548 $ git merge drums
+----
+2548 Merge made by the 'recursive' strategy.
+ cymbals  | 1 +
+ kickdrum | 1 +
+ snare    | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 cymbals
+ create mode 100644 kickdrum
+ create mode 100644 snare
+----
+2703-2747 $ git merge guitar2 
+----
+2749 Merge made by the 'recursive' strategy.
+ guitar2 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 guitar2
+----
+3085-3127 $ git checkout main 
+----
+3130-3148 $ git checkout -b synth-bass 
+----
+3155 Switched to a new branch 'synth-bass'
+----
+3160-3210 $ git add synth-bass
+----
+3422-3475 $ git commit -m "Time sequence data bass" 
+----
+3480 [synth-bass 0f56fb7] Time sequence data bass
+ 1 file changed, 1 insertion(+)
+ create mode 100644 synth-bass
+----
+3552-3581 $ git merge drums
+----
+3584 Merge made by the 'recursive' strategy.
+ cymbals  | 1 +
+ kickdrum | 1 +
+ snare    | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 cymbals
+ create mode 100644 kickdrum
+ create mode 100644 snare
+----
+3902-3931 $ git checkout -b synth-pads
+----
+3939 Switched to a new branch 'synth-pads'
+----
+3942-3948 $ git add right-pad
+----
+3952-3964 $ git add left-pad
+----
+3990-4220 $ git commit -m "Add right-pad and left-pad" 
+----
+4230 [synth-pads ea032ae] Add right-pad and left-pad
+ 2 file changed, 2 insertion(+)
+ create mode 100644 right-pad
+ create mode 100644 left-pad
+----
+4243-4271 $ git checkout -b all-the-things 
+----
+4280 Switched to a new branch 'all-the-things'
+----
+4295-4331 $ git merge all-the-guitars 
+----
+4334 Merge made by the 'recursive' strategy.
+ bass    | 1 +
+ echo-guitar | 1 +
+ guitar2 | 1 +
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 bass
+ create mode 100644 echo-guitar
+ create mode 100644 guitar2
+----
+4667-4697 $ git checkout main 
+----
+4742-4782 $ git add vocoder
+----
+4790-4859 $ git commit -m "Vocoder #daftpunk #gitlucky"
+----
+4872 [main 4217706] Vocoder #daftpunk #gitlucky
+ 1 file changed, 1 insertion(+)
+ create mode 100644 vocoder
+----
+5092-5118 $ git merge echo-guitar 
+----
+5120 Merge made by the 'recursive' strategy.
+ echo-guitar | 1 +
+ 1 files changed, 1 insertions(+), 1 deletion(-)
+ create mode 100644 echo-guitar
+----
+5150-5240 $ init code it add it commit branch it pull it merge it conflict
+----
+5242-5331 $ fix it push it tag it clone it fork it star it run it own it
+----
+5334-5422 $ init code it add it commit branch it pull it merge it conflict
+----
+5426-5525 $ capture all of your decisions take control of your revisions
+----
+5587-5615 $ git rebase all-the-things
+----
+5620 Successfully rebased and updated refs/heads/main.
+----
+5900-5954 $ git add lead-guitar
+----
+6154-6172 $ git commit -m "Tech lead guitar"
+----
+6180 [main 51221e5] Tech lead guitar
+ 1 file changed, 1 insertion(+)
+ create mode 100644 lead-guitar
+----
+6190-6245 $ git push
+----
+6250-6265 Enumerating objects: 42, done.
+----
+6265-6270 Counting objects: 100% (42/42), done.
+----
+6272-6280 Delta compression using up to 8 threads
+----
+6285-6298 Compressing objects: 100% (30/30), done.
+----
+6302-6308 Writing objects: 100% (40/40), 3.13 KiB | 1.57 MiB/s, done.
+6310-6315 Total 40 (delta 19), reused 0 (delta 0), pack-reused 0
+----
+6318-6328 remote: Resolving deltas: 100% (19/19), done.
+To github.com:dylanbeattie/rebass.git
+   a8645b9..0d6db34  main -> main
+----
+6330-6360 $ rm -rf *
+----
+6360
+----
+6433-6455 $ exit
+----
+6455 [process exited with code 0]
