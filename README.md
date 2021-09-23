@@ -75,11 +75,11 @@ It took a while to figure all this out, but it meant I could edit the transcript
 
 ### This repository
 
-Finally, just for fun, I set up a real project on GitHub (you're looking at it!) and ran the git history script against it. If you head over to [https://github.com/dylanbeattie/rebass/network](https://github.com/dylanbeattie/rebass/network) you'll see the network graph for this project is the same as the structure of the song. 
+Finally, just for fun, I set up a real project on GitHub (you're looking at it!) to host this README and the scripts... and then I ran the git history script against it. If you head over to [https://github.com/dylanbeattie/rebass/network](https://github.com/dylanbeattie/rebass/network) you'll see the network graph for this project is the same as the structure of the song. 
 
 Yes, I am that much of a nerd.
 
-I added a few extra snippets of code and this README, and, well, here it is. Happy listening.
+Happy listening.
 
 ### Links
 
